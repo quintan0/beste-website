@@ -40,6 +40,12 @@ body {
     scroll-snap-type: y proximity;
 }
 
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
 .container {
     max-width: clamp(800px, 80vw, 1400px);
     margin: 0 auto;
