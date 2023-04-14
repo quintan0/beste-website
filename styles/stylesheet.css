@@ -38,6 +38,7 @@ body {
     );
     background-attachment: fixed;
     scroll-snap-type: y proximity;
+    cursor: url("../images/ferret-cursor.png"), pointer;
 }
 
 img,
