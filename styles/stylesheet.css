@@ -65,3 +65,14 @@ section {
 #animals {
     font-size: 2.5em;
 }
+
+#ferret{
+    background-position: center;
+    background-size: cover;
+}
+
+#ferret:hover {
+    cursor: url("../images/ferret-cursor.png"), pointer;
+    filter: hue-rotate(90deg);
+    transition: filter 1s;
+}
