@@ -1,7 +1,3 @@
-*{
-    cursor: url("../images/ferret-cursor.png"), pointer;
-}
-
 :root {
     scrollbar-color: rgb(71, 197, 174) rgb(237, 249, 247);
     scrollbar-width: auto;
@@ -42,6 +38,7 @@ body {
     );
     background-attachment: fixed;
     scroll-snap-type: y proximity;
+    cursor: url("../images/ferret-cursor.png"), pointer;
 }
 
 img,
