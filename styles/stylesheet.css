@@ -67,7 +67,7 @@ section {
     font-size: 2.5em;
 }
 
-#ferret{
+#ferret {
     background-position: center;
     background-size: cover;
 }
@@ -76,4 +76,19 @@ section {
     cursor: url("../images/ferret-cursor.png"), pointer;
     filter: hue-rotate(90deg);
     transition: filter 1s;
+}
+
+/* Dylan's CSS */
+@keyframes showAndGrow {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.3);
+    }
+}
+.animateDylan {
+    display: inline-block;
+    transform-origin: 0 0;
+    animation: showAndGrow 2s ease-in-out infinite alternate;
 }
